@@ -25,7 +25,7 @@ public class BaseTest {
         $x("//*[@class='btn btn-additional']").click();
         $x("//a[@href='/catalog/17a8e9b716404e77/bytovaya-texnika/']").hover();
         $x("//a[@href='/catalog/093d2768390b7fd7/xolodilnoe-oborudovanie/']").hover();
-        $x("//a[@href='/catalog/4e2a7cdb390b7fd7/xolodilniki/']").click();
+
 
         /*
         $x("//span[text()='Товары для кухни']").click();
