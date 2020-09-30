@@ -1,0 +1,376 @@
+[1601293501.412][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 2817
+[1601293501.413][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601293502.152][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\admim\\IdeaProjects\\dns.shop\\build\\downloads\\1601293500159_6424_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\admim\\IdeaProjects\\dns.shop\\build\\downloads\\1601293500159_6424_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601293502.158][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\admim\\IdeaProjects\\dns.shop\\build\\downloads\\1601293500159_6424_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601293502.158][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601293502.159][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\admim\AppData\Local\Temp\scoped_dir8208_838678849" data:,
+[1601293502.769][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601293504.812][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601293506.864][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\admim\\AppData\\Local\\Temp\\scoped_dir8208_838678849"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53648"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d09cb5dbc75026ed15e940abd84d1db1"
+}
+[1601293506.943][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601293506.943][INFO]: Waiting for pending navigations...
+[1601293506.946][INFO]: Done waiting for pending navigations. Status: ok
+[1601293507.063][INFO]: Waiting for pending navigations...
+[1601293507.064][INFO]: Done waiting for pending navigations. Status: ok
+[1601293507.064][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1601293507.077][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND Navigate {
+   "url": "https://www.dns-shop.ru/"
+}
+[1601293507.077][INFO]: Waiting for pending navigations...
+[1601293507.078][INFO]: Done waiting for pending navigations. Status: ok
+[1601293512.249][INFO]: Waiting for pending navigations...
+[1601293513.285][INFO]: Done waiting for pending navigations. Status: ok
+[1601293513.285][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE Navigate
+[1601293513.409][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='btn btn-additional']"
+}
+[1601293513.409][INFO]: Waiting for pending navigations...
+[1601293513.424][INFO]: Done waiting for pending navigations. Status: ok
+[1601293513.485][INFO]: Waiting for pending navigations...
+[1601293513.549][INFO]: Done waiting for pending navigations. Status: ok
+[1601293513.549][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "cb4d8479-a9ad-4dc8-93ef-6ff410f9974e"
+}
+[1601293513.586][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "cb4d8479-a9ad-4dc8-93ef-6ff410f9974e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601293513.586][INFO]: Waiting for pending navigations...
+[1601293513.789][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.271][INFO]: Waiting for pending navigations...
+[1601293514.280][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.280][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE ExecuteScript true
+[1601293514.289][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND ClickElement {
+   "id": "cb4d8479-a9ad-4dc8-93ef-6ff410f9974e"
+}
+[1601293514.290][INFO]: Waiting for pending navigations...
+[1601293514.291][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.609][INFO]: Waiting for pending navigations...
+[1601293514.630][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.630][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE ClickElement
+[1601293514.639][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293514.639][INFO]: Waiting for pending navigations...
+[1601293514.676][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.691][INFO]: Waiting for pending navigations...
+[1601293514.692][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.692][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293514.928][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293514.928][INFO]: Waiting for pending navigations...
+[1601293514.929][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.936][INFO]: Waiting for pending navigations...
+[1601293514.937][INFO]: Done waiting for pending navigations. Status: ok
+[1601293514.937][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293515.160][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293515.160][INFO]: Waiting for pending navigations...
+[1601293515.161][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.169][INFO]: Waiting for pending navigations...
+[1601293515.169][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.169][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293515.380][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293515.381][INFO]: Waiting for pending navigations...
+[1601293515.382][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.389][INFO]: Waiting for pending navigations...
+[1601293515.389][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.389][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293515.602][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293515.602][INFO]: Waiting for pending navigations...
+[1601293515.602][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.609][INFO]: Waiting for pending navigations...
+[1601293515.609][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.609][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293515.821][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293515.821][INFO]: Waiting for pending navigations...
+[1601293515.822][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.833][INFO]: Waiting for pending navigations...
+[1601293515.834][INFO]: Done waiting for pending navigations. Status: ok
+[1601293515.834][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293516.043][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293516.043][INFO]: Waiting for pending navigations...
+[1601293516.044][INFO]: Done waiting for pending navigations. Status: ok
+[1601293516.052][INFO]: Waiting for pending navigations...
+[1601293516.052][INFO]: Done waiting for pending navigations. Status: ok
+[1601293516.053][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293516.265][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293516.265][INFO]: Waiting for pending navigations...
+[1601293516.267][INFO]: Done waiting for pending navigations. Status: ok
+[1601293516.274][INFO]: Waiting for pending navigations...
+[1601293516.274][INFO]: Done waiting for pending navigations. Status: ok
+[1601293516.275][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293516.497][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293516.497][INFO]: Waiting for pending navigations...
+[1601293516.500][INFO]: Done waiting for pending navigations. Status: ok
+[1601293516.520][INFO]: Waiting for pending navigations...
+[1601293516.537][INFO]: Done waiting for pending navigations. Status: ok
+[1601293516.537][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293516.749][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293516.749][INFO]: Waiting for pending navigations...
+[1601293516.761][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.140][INFO]: Waiting for pending navigations...
+[1601293517.188][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.188][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293517.396][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293517.396][INFO]: Waiting for pending navigations...
+[1601293517.397][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.412][INFO]: Waiting for pending navigations...
+[1601293517.412][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.412][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293517.631][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293517.631][INFO]: Waiting for pending navigations...
+[1601293517.662][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.671][INFO]: Waiting for pending navigations...
+[1601293517.672][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.672][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293517.895][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293517.895][INFO]: Waiting for pending navigations...
+[1601293517.896][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.906][INFO]: Waiting for pending navigations...
+[1601293517.907][INFO]: Done waiting for pending navigations. Status: ok
+[1601293517.907][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293518.129][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293518.130][INFO]: Waiting for pending navigations...
+[1601293518.132][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.140][INFO]: Waiting for pending navigations...
+[1601293518.141][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.141][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293518.350][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293518.350][INFO]: Waiting for pending navigations...
+[1601293518.351][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.358][INFO]: Waiting for pending navigations...
+[1601293518.358][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.358][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293518.568][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293518.568][INFO]: Waiting for pending navigations...
+[1601293518.568][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.576][INFO]: Waiting for pending navigations...
+[1601293518.576][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.576][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293518.793][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601293518.793][INFO]: Waiting for pending navigations...
+[1601293518.793][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.822][INFO]: Waiting for pending navigations...
+[1601293518.823][INFO]: Done waiting for pending navigations. Status: ok
+[1601293518.823][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\">\u003Chead>\n\t\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\u003Cmeta charset=\"UTF-8\">\n\t\u003Cmeta name=\"csrf-param\" content=\"_csrf\">\n\u003Cmeta name=\"csrf-token\" content=\"Qq1y8_fi8gExi4Ii_IT0..."
+[1601293518.940][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND Screenshot {
+
+}
+[1601293518.940][INFO]: Waiting for pending navigations...
+[1601293518.942][INFO]: Done waiting for pending navigations. Status: ok
+[1601293519.379][INFO]: Waiting for pending navigations...
+[1601293519.380][INFO]: Done waiting for pending navigations. Status: ok
+[1601293519.381][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOvCAYAAAAtF9k2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt0FFW6N/7vrsR0g7lxjQmRAI4IAglyHUGizKuIo8RXxRkHRV06IHNGvJwDx/NzGBBE1ztLzjtK5owXRo6AcmZEmWPAkYvvQYOgAkYSQCEqIRgCASIdEqAT0..."
+[1601293519.489][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] COMMAND Quit {
+
+}
+[1601293519.567][INFO]: [d09cb5dbc75026ed15e940abd84d1db1] RESPONSE Quit

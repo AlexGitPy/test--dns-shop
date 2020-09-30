@@ -1,0 +1,696 @@
+[1601293535.445][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 8653
+[1601293535.446][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601293536.290][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\admim\\IdeaProjects\\dns.shop\\build\\downloads\\1601293534199_9632_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\admim\\IdeaProjects\\dns.shop\\build\\downloads\\1601293534199_9632_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601293536.296][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\admim\\IdeaProjects\\dns.shop\\build\\downloads\\1601293534199_9632_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601293536.297][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601293536.298][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\admim\AppData\Local\Temp\scoped_dir13936_299235753" data:,
+[1601293536.973][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601293538.988][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601293541.023][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\admim\\AppData\\Local\\Temp\\scoped_dir13936_299235753"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53730"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "dcbf581df3249edcfd718cd0df86e4ba"
+}
+[1601293541.125][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601293541.125][INFO]: Waiting for pending navigations...
+[1601293541.128][INFO]: Done waiting for pending navigations. Status: ok
+[1601293541.247][INFO]: Waiting for pending navigations...
+[1601293541.247][INFO]: Done waiting for pending navigations. Status: ok
+[1601293541.247][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1601293541.258][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND Navigate {
+   "url": "https://www.dns-shop.ru/"
+}
+[1601293541.258][INFO]: Waiting for pending navigations...
+[1601293541.259][INFO]: Done waiting for pending navigations. Status: ok
+[1601293542.621][INFO]: Waiting for pending navigations...
+[1601293545.487][INFO]: Done waiting for pending navigations. Status: ok
+[1601293545.487][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE Navigate
+[1601293545.706][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='btn btn-additional']"
+}
+[1601293545.707][INFO]: Waiting for pending navigations...
+[1601293545.793][INFO]: Done waiting for pending navigations. Status: ok
+[1601293545.813][INFO]: Waiting for pending navigations...
+[1601293545.821][INFO]: Done waiting for pending navigations. Status: ok
+[1601293545.821][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3b424e12-be45-452c-a97d-ae6090f866d1"
+}
+[1601293545.857][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "3b424e12-be45-452c-a97d-ae6090f866d1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601293545.857][INFO]: Waiting for pending navigations...
+[1601293545.858][INFO]: Done waiting for pending navigations. Status: ok
+[1601293545.874][INFO]: Waiting for pending navigations...
+[1601293545.875][INFO]: Done waiting for pending navigations. Status: ok
+[1601293545.875][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript true
+[1601293545.883][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ClickElement {
+   "id": "3b424e12-be45-452c-a97d-ae6090f866d1"
+}
+[1601293545.883][INFO]: Waiting for pending navigations...
+[1601293545.884][INFO]: Done waiting for pending navigations. Status: ok
+[1601293546.815][INFO]: Waiting for pending navigations...
+[1601293546.816][INFO]: Done waiting for pending navigations. Status: ok
+[1601293546.816][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ClickElement
+[1601293546.822][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293546.822][INFO]: Waiting for pending navigations...
+[1601293546.823][INFO]: Done waiting for pending navigations. Status: ok
+[1601293546.836][INFO]: Waiting for pending navigations...
+[1601293546.838][INFO]: Done waiting for pending navigations. Status: ok
+[1601293546.838][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293547.087][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293547.087][INFO]: Waiting for pending navigations...
+[1601293547.087][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.096][INFO]: Waiting for pending navigations...
+[1601293547.097][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.097][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293547.322][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293547.322][INFO]: Waiting for pending navigations...
+[1601293547.324][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.335][INFO]: Waiting for pending navigations...
+[1601293547.336][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.337][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293547.555][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293547.555][INFO]: Waiting for pending navigations...
+[1601293547.556][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.567][INFO]: Waiting for pending navigations...
+[1601293547.568][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.568][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293547.791][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293547.792][INFO]: Waiting for pending navigations...
+[1601293547.795][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.801][INFO]: Waiting for pending navigations...
+[1601293547.802][INFO]: Done waiting for pending navigations. Status: ok
+[1601293547.802][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293548.030][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293548.030][INFO]: Waiting for pending navigations...
+[1601293548.031][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.038][INFO]: Waiting for pending navigations...
+[1601293548.039][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.039][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293548.260][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293548.260][INFO]: Waiting for pending navigations...
+[1601293548.262][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.269][INFO]: Waiting for pending navigations...
+[1601293548.269][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.269][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293548.481][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293548.481][INFO]: Waiting for pending navigations...
+[1601293548.482][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.489][INFO]: Waiting for pending navigations...
+[1601293548.490][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.490][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293548.717][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293548.717][INFO]: Waiting for pending navigations...
+[1601293548.717][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.724][INFO]: Waiting for pending navigations...
+[1601293548.725][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.725][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293548.948][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293548.948][INFO]: Waiting for pending navigations...
+[1601293548.949][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.956][INFO]: Waiting for pending navigations...
+[1601293548.956][INFO]: Done waiting for pending navigations. Status: ok
+[1601293548.956][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293549.179][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293549.179][INFO]: Waiting for pending navigations...
+[1601293549.180][INFO]: Done waiting for pending navigations. Status: ok
+[1601293549.188][INFO]: Waiting for pending navigations...
+[1601293549.188][INFO]: Done waiting for pending navigations. Status: ok
+[1601293549.188][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293549.415][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293549.415][INFO]: Waiting for pending navigations...
+[1601293549.416][INFO]: Done waiting for pending navigations. Status: ok
+[1601293549.422][INFO]: Waiting for pending navigations...
+[1601293549.423][INFO]: Done waiting for pending navigations. Status: ok
+[1601293549.423][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293549.634][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293549.634][INFO]: Waiting for pending navigations...
+[1601293549.635][INFO]: Done waiting for pending navigations. Status: ok
+[1601293549.641][INFO]: Waiting for pending navigations...
+[1601293549.642][INFO]: Done waiting for pending navigations. Status: ok
+[1601293549.642][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Бытовая техника']/../../span"}
+  (Session info: chrome=85.0.4183.121)
+[1601293549.868][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293549.868][INFO]: Waiting for pending navigations...
+[1601293549.940][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.009][INFO]: Waiting for pending navigations...
+[1601293550.022][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.022][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+}
+[1601293550.038][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601293550.038][INFO]: Waiting for pending navigations...
+[1601293550.058][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.071][INFO]: Waiting for pending navigations...
+[1601293550.078][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.078][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript false
+[1601293550.082][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND GetElementCSSProperty {
+   "id": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e",
+   "propertyName": "opacity"
+}
+[1601293550.083][INFO]: Waiting for pending navigations...
+[1601293550.085][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.100][INFO]: Waiting for pending navigations...
+[1601293550.121][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.121][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE GetElementCSSProperty "1"
+[1601293550.126][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND GetElementTagName {
+   "id": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+}
+[1601293550.126][INFO]: Waiting for pending navigations...
+[1601293550.129][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.132][INFO]: Waiting for pending navigations...
+[1601293550.134][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.134][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE GetElementTagName "span"
+[1601293550.140][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e",
+      "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601293550.140][INFO]: Waiting for pending navigations...
+[1601293550.146][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.152][INFO]: Waiting for pending navigations...
+[1601293550.153][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.153][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript {
+   "class": "menu-desktop__root-icon"
+}
+[1601293550.165][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601293550.165][INFO]: Waiting for pending navigations...
+[1601293550.185][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.211][INFO]: Waiting for pending navigations...
+[1601293550.212][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.212][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript null
+[1601293550.222][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601293550.222][INFO]: Waiting for pending navigations...
+[1601293550.223][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.255][INFO]: Waiting for pending navigations...
+[1601293550.258][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.258][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript null
+[1601293550.262][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND IsElementSelected {
+   "id": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+}
+[1601293550.262][INFO]: Waiting for pending navigations...
+[1601293550.263][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.272][INFO]: Waiting for pending navigations...
+[1601293550.273][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.273][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE IsElementSelected false
+[1601293550.287][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601293550.287][INFO]: Waiting for pending navigations...
+[1601293550.304][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.315][INFO]: Waiting for pending navigations...
+[1601293550.316][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.316][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript true
+[1601293550.320][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND GetElementText {
+   "id": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+}
+[1601293550.320][INFO]: Waiting for pending navigations...
+[1601293550.321][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.334][INFO]: Waiting for pending navigations...
+[1601293550.352][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.352][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE GetElementText ""
+[1601293550.355][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND GetElementTagName {
+   "id": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+}
+[1601293550.355][INFO]: Waiting for pending navigations...
+[1601293550.356][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.358][INFO]: Waiting for pending navigations...
+[1601293550.358][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.358][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE GetElementTagName "span"
+[1601293550.376][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601293550.376][INFO]: Waiting for pending navigations...
+[1601293550.383][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.391][INFO]: Waiting for pending navigations...
+[1601293550.391][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.391][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript true
+[1601293550.395][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND GetElementCSSProperty {
+   "id": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e",
+   "propertyName": "opacity"
+}
+[1601293550.396][INFO]: Waiting for pending navigations...
+[1601293550.396][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.401][INFO]: Waiting for pending navigations...
+[1601293550.405][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.405][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE GetElementCSSProperty "1"
+[1601293550.615][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Бытовая техника']/../../span"
+}
+[1601293550.615][INFO]: Waiting for pending navigations...
+[1601293550.616][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.624][INFO]: Waiting for pending navigations...
+[1601293550.629][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.629][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+}
+[1601293550.643][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601293550.643][INFO]: Waiting for pending navigations...
+[1601293550.645][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.653][INFO]: Waiting for pending navigations...
+[1601293550.654][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.654][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript true
+[1601293550.658][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ClickElement {
+   "id": "8c8fe2e1-869c-4d22-a13d-5602bdc9d66e"
+}
+[1601293550.658][INFO]: Waiting for pending navigations...
+[1601293550.659][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.725][INFO]: Waiting for pending navigations...
+[1601293550.728][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.728][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ClickElement
+[1601293550.734][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293550.734][INFO]: Waiting for pending navigations...
+[1601293550.735][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.747][INFO]: Waiting for pending navigations...
+[1601293550.748][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.748][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293550.960][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293550.960][INFO]: Waiting for pending navigations...
+[1601293550.961][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.967][INFO]: Waiting for pending navigations...
+[1601293550.968][INFO]: Done waiting for pending navigations. Status: ok
+[1601293550.968][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293551.178][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293551.178][INFO]: Waiting for pending navigations...
+[1601293551.179][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.186][INFO]: Waiting for pending navigations...
+[1601293551.187][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.187][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293551.399][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293551.399][INFO]: Waiting for pending navigations...
+[1601293551.400][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.407][INFO]: Waiting for pending navigations...
+[1601293551.407][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.407][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293551.636][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293551.636][INFO]: Waiting for pending navigations...
+[1601293551.637][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.645][INFO]: Waiting for pending navigations...
+[1601293551.646][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.646][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293551.864][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293551.864][INFO]: Waiting for pending navigations...
+[1601293551.865][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.871][INFO]: Waiting for pending navigations...
+[1601293551.872][INFO]: Done waiting for pending navigations. Status: ok
+[1601293551.872][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293552.080][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293552.080][INFO]: Waiting for pending navigations...
+[1601293552.081][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.088][INFO]: Waiting for pending navigations...
+[1601293552.089][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.089][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293552.300][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293552.300][INFO]: Waiting for pending navigations...
+[1601293552.301][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.309][INFO]: Waiting for pending navigations...
+[1601293552.310][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.310][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293552.518][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293552.518][INFO]: Waiting for pending navigations...
+[1601293552.519][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.526][INFO]: Waiting for pending navigations...
+[1601293552.527][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.527][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293552.741][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293552.741][INFO]: Waiting for pending navigations...
+[1601293552.742][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.749][INFO]: Waiting for pending navigations...
+[1601293552.750][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.750][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293552.962][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293552.962][INFO]: Waiting for pending navigations...
+[1601293552.963][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.970][INFO]: Waiting for pending navigations...
+[1601293552.971][INFO]: Done waiting for pending navigations. Status: ok
+[1601293552.971][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293553.179][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293553.179][INFO]: Waiting for pending navigations...
+[1601293553.180][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.187][INFO]: Waiting for pending navigations...
+[1601293553.187][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.187][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293553.399][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293553.399][INFO]: Waiting for pending navigations...
+[1601293553.400][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.406][INFO]: Waiting for pending navigations...
+[1601293553.407][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.407][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293553.618][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293553.618][INFO]: Waiting for pending navigations...
+[1601293553.619][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.626][INFO]: Waiting for pending navigations...
+[1601293553.628][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.628][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293553.834][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293553.834][INFO]: Waiting for pending navigations...
+[1601293553.835][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.842][INFO]: Waiting for pending navigations...
+[1601293553.843][INFO]: Done waiting for pending navigations. Status: ok
+[1601293553.843][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293554.051][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293554.051][INFO]: Waiting for pending navigations...
+[1601293554.052][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.059][INFO]: Waiting for pending navigations...
+[1601293554.059][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.059][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293554.271][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293554.271][INFO]: Waiting for pending navigations...
+[1601293554.272][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.281][INFO]: Waiting for pending navigations...
+[1601293554.282][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.282][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293554.489][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293554.489][INFO]: Waiting for pending navigations...
+[1601293554.490][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.498][INFO]: Waiting for pending navigations...
+[1601293554.498][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.498][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293554.709][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Товары для кухни']"
+}
+[1601293554.709][INFO]: Waiting for pending navigations...
+[1601293554.710][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.717][INFO]: Waiting for pending navigations...
+[1601293554.717][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.717][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Товары для кухни']"}
+  (Session info: chrome=85.0.4183.121)
+[1601293554.930][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601293554.930][INFO]: Waiting for pending navigations...
+[1601293554.931][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.953][INFO]: Waiting for pending navigations...
+[1601293554.954][INFO]: Done waiting for pending navigations. Status: ok
+[1601293554.954][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\">\u003Chead>\n\t\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\u003Cmeta charset=\"UTF-8\">\n\t\u003Cmeta name=\"csrf-param\" content=\"_csrf\">\n\u003Cmeta name=\"csrf-token\" content=\"OS6xQ4tYhvwa_MlIwhq7..."
+[1601293555.024][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND Screenshot {
+
+}
+[1601293555.024][INFO]: Waiting for pending navigations...
+[1601293555.025][INFO]: Done waiting for pending navigations. Status: ok
+[1601293555.404][INFO]: Waiting for pending navigations...
+[1601293555.405][INFO]: Done waiting for pending navigations. Status: ok
+[1601293555.406][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt4FFWeP/73qcR0g7lxjQmREBwjDJAgQhhBosxXEUeJPxVnHBT10QGZHUFmF9b9OQwIos/OI/sdJbPjhdEVUXZGlFkDjlz8LRoE5WIkARSiEILhEiDSIQE6M..."
+[1601293555.490][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] COMMAND Quit {
+
+}
+[1601293555.534][INFO]: [dcbf581df3249edcfd718cd0df86e4ba] RESPONSE Quit
